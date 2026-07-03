@@ -58,10 +58,10 @@ Now let's use the model leaderboard and side-by-side comparison features to comp
 1. In the model catalog page, select **View leaderboard**.
 1. In the **Model leaderboard** page, review the top models ranked by quality, safety, cost, and performance. Note which models score highest for AI quality metrics.
 1. Scroll down to use the **Trade-off chart** section to compare models on multiple dimensions.
-1. Select the **Benchmark Cost** from the dropdown to see how model quality relates to cost, and then use the model list to compare **gpt-5.2** and **gpt-5.2-mini**. If you want to explore further, you can add other models to the comparison.
+1. Select the **Benchmark Cost** from the dropdown to see how model quality relates to cost, and then use the model list to compare **gpt-5.2** and **gpt-5-mini**. If you want to explore further, you can add other models to the comparison.
 1. Select the **Throughput** metric from the dropdown to see how the quality of these models relates to throughput scores.
 1. Select the **Safety** metric from the dropdown to see how the quality of these models relates to safety scores.
-1. In the table just above the trade-off charts, you can compare benchmarks. Select **gpt-5.2** and **gpt-5.2-mini**, and optionally any other models you want to explore, and then use the **Compare models** button to view their benchmarks side-by-side.
+1. In the table just above the trade-off charts, you can compare benchmarks. Select **gpt-5.2** and **gpt-5-mini**, and optionally any other models you want to explore, and then use the **Compare models** button to view their benchmarks side-by-side.
 1. Review the comparison across the following data:
     - **Performance benchmarks**: Quality, safety, and throughput scores.
     - **Input** and **output**: The formats supported for prompts and responses.
@@ -72,7 +72,7 @@ Now let's use the model leaderboard and side-by-side comparison features to comp
 
 ## Deploy models
 
-Now let's deploy the models we'll use for testing and evaluation. You need to deploy **gpt-5.2** and **gpt-5.2-mini**.
+Now let's deploy the models we'll use for testing and evaluation. You need to deploy **gpt-5.2** and **gpt-5-mini**.
 
 ### Deploy the gpt-5.2 model
 
@@ -83,20 +83,20 @@ Now let's deploy the models we'll use for testing and evaluation. You need to de
 
 1. Note the deployment name that is assigned to the **gpt-5.2** model. You'll need to identify this deployment later.
 
-### Deploy the gpt-5.2-mini model
+### Deploy the gpt-5-mini model
 
 1. In the model playground, in the **Model** list, select **Browse more models**.
-1. Search for `gpt-5.2-mini`, and then select it and deploy it.
+1. Search for `gpt-5-mini`, and then select it and deploy it.
 
     The model is deployed and selected in the model playground.
 
-1. Note the deployment name that is assigned to the **gpt-5.2-mini** model.
+1. Note the deployment name that is assigned to the **gpt-5-mini** model.
 
 ## Compare models in the model playground
 
 Now that you have two model deployments, let's compare them in the playground.
 
-1. In the playground, ensure the deployment for the **gpt-5.2-mini** model is selected in the **Models** list, and then on the right side of the page, in the **Compare models** list, select the deployment for the **gpt-5.2** model.
+1. In the playground, ensure the deployment for the **gpt-5-mini** model is selected in the **Models** list, and then on the right side of the page, in the **Compare models** list, select the deployment for the **gpt-5.2** model.
 1. The side-by-side comparison view opens directly into separate chat panes for each model. Select the **Chat** tab for both models, and enter the following prompt:
 
     ```
@@ -150,7 +150,7 @@ Instead of uploading a test dataset, you'll use Foundry's synthetic data generat
 
 ### Step 4: Criteria
 
-1. In the **Criteria** step, all of the suggested evaluators. These use an AI model as a judge to assess the quality of responses.
+1. In the **Criteria** step, view all of the suggested evaluators. These use an AI model as a judge to assess the quality of responses.
 1. Remove all of the criteria under *Agents*, leaving the rest of the evaluators enabled.
 1. Select **Next**.
 
